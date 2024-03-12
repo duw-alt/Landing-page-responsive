@@ -1,0 +1,37 @@
+$('.slider-1').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+})
+
+$('.slider-2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        1200:{
+            items:5
+        }
+    }
+})

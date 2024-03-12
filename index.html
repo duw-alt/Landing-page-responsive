@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/general.css">
+
+  <!-- Icon -->
+  <link rel="short-cut icon" href="./assets/images/website-icon.png">
+
+  <title>TechnoIt</title>
+</head>
+<body>
+
+
+  <!-- ! GO BACK ARROW START -->
+    <div class="go-back">
+      <a href="#">
+        <i class="bi bi-arrow-up-short"></i>
+      </a>
+    </div>
+  <!-- ! GO BACK ARROW END -->
+
+
+
+
+  <!-- ! MODAL START -->
+  <div class="container-fluid modal-wrap">
+      <div class="modal-box">
+        <h6 class="fw-bold">Phone:</h6>
+        <p>+1 1234 56 789 <br>+1 1234 56 780</p>
+        <h6 class="fw-bold mt-4">Email:</h6>
+        <p>info@example.com<br>email@example.com</p>
+        <button class="close-button mt-3">Close</button>
+      </div>
+  </div>
+  <!-- ! MODAL END -->
+
+
+
+
+  <!-- ! NAVBAR START -->
+    <div class="header d-flex align-items-center">
+      <div class="container container-xl d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/images/logo.png" alt="logo">
+        </a>
+        <div class="navbar d-flex align-items-center d-none d-xl-block">
+          <ul class="d-flex flex-row gap-4 ps-0 mb-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#team">Team</a></li>
+            <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul class="d-grid gap-2">
+                <li><a href="#home">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#stats">Privacy Policy</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#blogs">Blog Detail Page</a></li>
+              </ul>
+            </li>
+            <li><a href="#blogs">News</a></li>
+          </ul>
+        </div>
+        <button class="btn-default d-none d-md-block get-quotes-btn">Get Quotes</button>
+        <button class="dark-mode-button">
+          <i class="bi bi-moon-fill"></i>
+          <i class="bi bi-sun-fill d-none"></i>
+        </button>
+        <button class="light-mode-button">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+        <div class="burger-wrap d-xl-none me-3">
+          <div class="burger"></div>
+        </div>
+      </div>
+      <div class="navbar-toggle bg-primary">
+        <ul class="gap-4 ps-0 mb-0">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul class="dropdown-ul">
+              <li><a href="#home">About</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#stats">Privacy Policy</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+              <li><a href="#blogs">Blog Detail Page</a></li>
+            </ul>
+          </li>
+          <li><a href="#blogs">News</a></li>
+        </ul>
+      </div>
+    </div>
+  <!-- ! NAVBAR END -->
+
+  
+
+
+  <!--! HOME START -->
+    <div class="container-fluid home d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="wrap text-center text-md-start offset-md-5 col-md-7">
+            <h1 class="mb-4">Delivering Superior Services <br> <span>IT Solutions.</span> </h1>
+            <p class="mb-5">You can easily change any design to your own. It is also highly <br>  customizable SEO friendly template.</p>
+            <button class="btn-default me-3 get-quotes2-btn">Get Quotes</button>
+            <a href="#start" class="btn-default">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--! HOME END -->
+
+
+
+  <!-- ! CARDS SECTION START -->
+    <div class="container d-flex justify-content-center mt-5 pt-5" id="start">
+      <div class="row cards-section pt-4"></div>
+    </div>
+  <!-- ! CARDS SECTION END -->
+
+
+
+  <!-- ! WHY US SECTION START -->
+    <div class="container why-us-section mt-5 pt-5" id="services">
+      <div class="row text-center mt-5 mb-5">
+        <h2 class="text-primary">Why Choose Us</h2>
+        <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="wrap d-flex flex-row  mb-4">
+            <div class="description col-10 text-end">
+              <h4>Experience</h4>
+              <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="icon col-2 ms-2">
+              <img class="img-fluid" src="./assets/images/icon-1.svg">
+            </div>
+          </div>
+          <div class="wrap d-flex flex-row mb-4">
+            <div class="description col-10 text-end">
+              <h4>Experience</h4>
+              <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="icon col-2 ms-2">
+              <img class="img-fluid" src="./assets/images/service-design.svg">
+            </div>
+          </div>
+          <div class="wrap d-flex flex-row mb-4">
+            <div class="description col-10 text-end">
+              <h4>Experience</h4>
+              <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="icon col-2 ms-2">
+              <img class="img-fluid" src="./assets/images/icon-3.svg">
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 d-flex align-items-center">
+          <img src="./assets/images/features.jpg" class="img-fluid">
+        </div>
+        <div class="col-xl-4 col-md-6 ms-md-auto">
+          <div class="wrap d-flex flex-row  mb-4">
+            <div class="icon col-2 me-2">
+              <img class="img-fluid" src="./assets/images/icon-4.svg">
+            </div>
+            <div class="description col-10">
+              <h4>Experience</h4>
+              <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="wrap d-flex flex-row mb-4">
+            <div class="icon col-2 me-2">
+              <img class="img-fluid" src="./assets/images/icon-5.svg">
+            </div>
+            <div class="description col-10">
+              <h4>Experience</h4>
+              <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="wrap d-flex flex-row mb-4">
+            <div class="icon col-2 me-2">
+              <img class="img-fluid" src="./assets/images/icon-6.svg">
+            </div>
+            <div class="description col-10">
+              <h4>Experience</h4>
+              <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- ! WHY US SECTION END -->
+
+
+
+
+
+  <!-- ! OUR PORTFOLIO SECTION START -->
+  <div class="container portfolio-section mt-5 pt-5" id="portfolio">
+    <div class="row text-center mt-5 mb-5">
+      <h2 class="text-primary">Our Portfolio</h2>
+      <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="row d-flex justify-content-center gap-4 mb-5">
+      <button class="btn-default">All</button>
+      <button class="btn-default">App Design</button>
+      <button class="btn-default">App Development</button>
+      <button class="btn-default">Branding</button>
+      <button class="btn-default">It Solutions</button>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-6">
+        <div class="img-wrap">
+          <img class="img-fluid" src="./assets/images/product-1.jpg">
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="img-wrap">
+          <img class="img-fluid" src="./assets/images/product-2.jpg">
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="img-wrap">
+          <img class="img-fluid" src="./assets/images/product-3.jpg">
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="img-wrap">
+          <img class="img-fluid" src="./assets/images/product-4.jpg">
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="img-wrap">
+          <img class="img-fluid" src="./assets/images/product-5.jpg">
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="img-wrap">
+          <img class="img-fluid" src="./assets/images/product-6.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! OUR PORTFOLIO SECTION END -->
+
+
+
+
+
+  <!-- ! PRICING SECTION START -->
+  <div class="container pricing-section mt-5 pt-5" id="pricing">
+    <div class="row text-center mt-5 mb-5">
+      <h2 class="text-primary">Pricing Plans</h2>
+      <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-6">
+        <div class="text-wrap text-center price">
+          <h2>Basic</h2>
+          <h1>$25</h1>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> Unlimited GB Space</li>
+            <li><i class="bi bi-check-circle"></i> 30 Domain Names</li>
+            <li><i class="bi bi-check-circle"></i> Free SSL</li>
+            <li><i class="bi bi-check-circle"></i> Daily Backup</li>
+            <li><i class="bi bi-check-circle"></i> Free Templates</li>
+            <li><i class="bi bi-check-circle"></i> Free Email</li>
+            <li><i class="bi bi-check-circle"></i> 10 Databases</li>
+            <li><i class="bi bi-check-circle"></i> Unlimited Email Address</li>
+            <li><i class="bi bi-check-circle"></i> Live Support</li>
+          </ul>
+          <button href="#" class="btn-default">Order Now</button>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="text-wrap text-center price">
+          <h2>Standard</h2>
+          <h1>$50</h1>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> Unlimited GB Space</li>
+            <li><i class="bi bi-check-circle"></i> 30 Domain Names</li>
+            <li><i class="bi bi-check-circle"></i> Free SSL</li>
+            <li><i class="bi bi-check-circle"></i> Daily Backup</li>
+            <li><i class="bi bi-check-circle"></i> Free Templates</li>
+            <li><i class="bi bi-check-circle"></i> Free Email</li>
+            <li><i class="bi bi-check-circle"></i> 10 Databases</li>
+            <li><i class="bi bi-check-circle"></i> Unlimited Email Address</li>
+            <li><i class="bi bi-check-circle"></i> Live Support</li>
+          </ul>
+          <button href="#" class="btn-default">Order Now</button>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6 offset-md-3 offset-xl-0">
+        <div class="text-wrap text-center price">
+          <h2>Premium</h2>
+          <h1>$100</h1>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> Unlimited GB Space</li>
+            <li><i class="bi bi-check-circle"></i> 30 Domain Names</li>
+            <li><i class="bi bi-check-circle"></i> Free SSL</li>
+            <li><i class="bi bi-check-circle"></i> Daily Backup</li>
+            <li><i class="bi bi-check-circle"></i> Free Templates</li>
+            <li><i class="bi bi-check-circle"></i> Free Email</li>
+            <li><i class="bi bi-check-circle"></i> 10 Databases</li>
+            <li><i class="bi bi-check-circle"></i> Unlimited Email Address</li>
+            <li><i class="bi bi-check-circle"></i> Live Support</li>
+          </ul>
+          <button href="#" class="btn-default">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! PRICING SECTION END -->
+
+
+
+
+
+
+  <!-- ! TESTIMONIALS SECTION START -->
+  <div class="container testimonials-section mt-5 pt-5" id="testimonials">
+    <div class="row text-center mt-5 mb-5">
+      <h2 class="text-primary">Testimonials</h2>
+      <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="row">
+      <div class="owl-carousel slider-1 owl-theme">
+        <div class="item">
+          <div class="d-flex">
+            <div class="img-wrap">
+              <img src="./assets/images/testimonial-1.jpg">
+            </div>
+            <div class="info-wrap mb-4">
+              <h5 class="text-primary">Jhone Doe</h5>
+              <h6 class="text-secondary">CFO</h6>
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="fst-italic">
+              <i class="bi bi-quote quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+              Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="d-flex">
+            <div class="img-wrap">
+              <img src="./assets/images/testimonial-2.jpg">
+            </div>
+            <div class="info-wrap mb-4">
+              <h5 class="text-primary">Affa Rose</h5>
+              <h6 class="text-secondary">Web Developer</h6>
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="fst-italic">
+              <i class="bi bi-quote quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+              Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="d-flex">
+            <div class="img-wrap">
+              <img src="./assets/images/testimonial-3.jpg">
+            </div>
+            <div class="info-wrap mb-4">
+              <h5 class="text-primary">Keena Lara</h5>
+              <h6 class="text-secondary">Store Owner</h6>
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="fst-italic">
+              <i class="bi bi-quote quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+              Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="d-flex">
+            <div class="img-wrap">
+              <img src="./assets/images/testimonial-4.jpg">
+            </div>
+            <div class="info-wrap mb-4">
+              <h5 class="text-primary">Fizzi Brandon</h5>
+              <h6 class="text-secondary">Freelancer</h6>
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="fst-italic">
+              <i class="bi bi-quote quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+              Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! TESTIMONIALS SECTION END -->
+
+
+
+
+  <!-- ! STATS SECTION START -->
+  <div class="container-fluid stats-section mt-5 d-flex justify-content-center" id="stats">
+    <div class="row container">
+      <div class="col-xl-4 col-md-12 text-center mb-4">
+        <img class="mb-2" src="./assets/images/happy-clients.svg">
+        <h4>232</h4>
+        <h4>Happy Clients</h4>
+        <p>consequuntur quae diredo</p>
+      </div>
+      <div class="col-xl-4 col-md-12 text-center mb-4">
+        <img class="mb-2" src="./assets/images/complete-projects.svg">
+        <h4>521</h4>
+        <h4>Completed Projects</h4>
+        <p>consequuntur quae diredo</p>
+      </div>
+      <div class="col-xl-4 col-md-12 text-center">
+        <img class="mb-2" src="./assets/images/hours-support.svg">
+        <h4>453</h4>
+        <h4>Hours Of Support</h4>
+        <p>consequuntur quae diredo</p>
+      </div>
+    </div>
+  </div>
+  <!-- ! STATS SECTION END -->
+
+
+
+
+
+  <!-- ! COMPANIES SLIDER SECTION START -->
+  <div class="container companies-slider">
+    <div class="row">
+      <div class="owl-carousel slider-2 owl-theme">
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-1.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-2.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-3.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-4.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-5.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-6.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-7.png" alt="">
+          </div>
+        </div>
+        <div class="item pt-4 pb-4">
+          <div class="image-wrap">
+            <img src="./assets/images/client-8.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! COMPANIES SLIDER SECTION END -->
+
+
+
+
+  <!-- ! TEAM SECTION START -->
+  <div class="container-fluid team-section pt-5 ps-3 pe-3" id="team">
+    <div class="container pt-5">
+      <div class="row text-center mb-5">
+        <h2 class="text-primary">Team</h2>
+        <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-3 col-md-6 text-center mb-5">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/team-1.jpg">
+          </div>
+          <div class="info-wrap">
+            <h4 class="text-primary mt-3">Jhone Bi</h4>
+            <p class="text-secondary fst-italic">Application Manager</p>
+          </div>
+          <div class="social-wrap d-flex justify-content-center d-grid gap-2">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 text-center mb-5">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/team-2.jpg">
+          </div>
+          <div class="info-wrap">
+            <h4 class="text-primary mt-3">Sani Awesome</h4>
+            <p class="text-secondary fst-italic">Social Media</p>
+          </div>
+          <div class="social-wrap d-flex justify-content-center d-grid gap-2">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 text-center mb-5">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/team-3.jpg">
+          </div>
+          <div class="info-wrap">
+            <h4 class="text-primary mt-3">Andrio Willi</h4>
+            <p class="text-secondary fst-italic">Content Writer</p>
+          </div>
+          <div class="social-wrap d-flex justify-content-center d-grid gap-2">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 text-center mb-5">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/team-4.jpg">
+          </div>
+          <div class="info-wrap">
+            <h4 class="text-primary mt-3">Afa Jonson</h4>
+            <p class="text-secondary fst-italic">Business Manager</p>
+          </div>
+          <div class="social-wrap d-flex justify-content-center d-grid gap-2">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! TEAM SECTION END -->
+
+
+
+  <!-- ! FAQS SECTION START -->
+  <div class="container faqs-section pt-5" id="faqs">
+    <div class="row text-center">
+      <h2 class="text-primary mt-5">FAQ's</h2>
+      <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="row">
+      <div class="accordion accordion-flush aos-init aos-animate" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-content-1" aria-expanded="false">
+              <i class="bi bi-arrow-right-circle-fill me-3"></i>
+              What is web domain and hosting?
+            </button>
+          </h3>
+          <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+            <div class="accordion-body">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+              quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+              labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+              autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-content-2" aria-expanded="false">
+              <i class="bi bi-arrow-right-circle-fill me-3"></i>
+              Which server is best for websites linux or windows?
+            </button>
+          </h3>
+          <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+            <div class="accordion-body">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+              quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+              labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+              autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-content-3" aria-expanded="false">
+              <i class="bi bi-arrow-right-circle-fill me-3"></i>
+              Google cloud or Amazon server which one is best and fast?
+            </button>
+          </h3>
+          <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+            <div class="accordion-body">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+              quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+              labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+              autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq-content-4" aria-expanded="false">
+              <i class="bi bi-arrow-right-circle-fill me-3"></i>
+              Why Organic SEO is important for all businesses?
+            </button>
+          </h3>
+          <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+            <div class="accordion-body">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+              quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+              labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+              exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+              autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! FAQS SECTION END -->
+
+
+
+
+
+
+  <!-- ! CONTACT US SECTION START -->
+  <div class="container-fluid contact-us mt-5 d-flex justify-content-center">
+    <div class="row justify-content-center text-center container">
+      <h3 class="mb-3">Let's Discuss Your Projects</h3>
+      <p>We pride ourselves with our ability to perform and deliver results. Use the form below to discuss your project needs with our team, we will get back asap</p>
+      <button class="btn-default mt-3 contact-us-btn">Contact Us</button>
+    </div>
+  </div>
+  <!-- ! CONTACT US SECTION END -->
+
+
+
+
+  <!-- ! BLOGS SECTION START -->
+  <div class="container blogs-section mt-5 pt-5" id="blogs">
+    <div class="row text-center mb-5 pt-5">
+      <h2 class="text-primary">Blogs</h2>
+      <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-4 col-lg-4 mb-5">
+        <div class="blog-wrap">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/blog-1.jpg">
+          </div>
+          <div class="info-wrap">
+            <h6 class="mb-3">Domain & Hosting</h6>
+            <a href="">
+              <h4 class="text-primary">How to host website on any hosting provider?</h4>
+            </a>
+            <p class="text-secondary mt-5">Jobi Ret</p>
+            <p class="text-secondary">Oct 5, 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 mb-5">
+        <div class="blog-wrap">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/blog-2.jpg">
+          </div>
+          <div class="info-wrap">
+            <h6 class="mb-3">Advertisement</h6>
+            <a href="">
+              <h4 class="text-primary">How to create add on google adwords?</h4>
+            </a>
+            <p class="text-secondary mt-5">William Bla</p>
+            <p class="text-secondary">Feb 1, 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 mb-5">
+        <div class="blog-wrap">
+          <div class="img-wrap">
+            <img class="img-fluid" src="./assets/images/blog-3.jpg">
+          </div>
+          <div class="info-wrap">
+            <h6 class="mb-3">Marketing</h6>
+            <a href="" id="link">
+              <h4 class="text-primary">What is digital marketing and why is important?</h4>
+            </a>
+            <p class="text-secondary mt-5">Main Dow</p>
+            <p class="text-secondary">Dec 22, 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! BLOGS SECTION END -->
+
+
+
+
+
+  <!-- ! CONTACT SECTION START -->
+  <div class="container contact-section mt-5 pt-5" id="contact">
+    <div class="row text-center mb-5">
+      <h2 class="text-primary">Contact Us</h2>
+      <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-lg-12 mb-5">
+        <h6 class="fw-bold">Address:</h6>
+        <p>11 West Town <br>PBo 12345, United States</p>
+        <h6 class="fw-bold mt-5">Phone:</h6>
+        <p>+1 1234 56 789 <br>+1 1234 56 780</p>
+        <h6 class="fw-bold mt-5">Email:</h6>
+        <p>info@example.com<br>email@example.com</p>
+      </div>
+      <div class="col-xl-8 col-lg-12 row ps-4">
+        <div class="col-6 ps-0">
+          <input type="text" placeholder="Name*">
+        </div>
+        <div class="col-6 pe-0">
+          <input type="email" placeholder="Email*">
+        </div>
+        <input type="text" placeholder="Subject*" class="d-block mt-5 mb-4">
+        <textarea rows="7" placeholder="Write Your Message*"></textarea>
+        <button class="btn-default">Send Message</button>
+      </div>
+    </div>
+  </div>
+  <!-- ! CONTACT SECTION END -->
+
+
+
+  <!-- ! FOOTER START -->
+  <div class="container-fluid footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 mb-4">
+          <div class="footer-logo mb-4">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/images/logo.png">
+            </a>
+          </div>
+          <div class="footer-text">
+            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicingelit,Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="footer-social-icon">
+            <span>Follow us</span>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <span>Services</span>
+          <ul class="d-grid gap-2">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">App Developemnt</a></li>
+            <li><a href="#">Cloud Services</a></li>
+            <li><a href="#">Domain adn Hosting</a></li>
+            <li><a href="#">Seo Optimization</a></li>
+            <li><a href="#">Social Media</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 mb-4">
+          <span>Information</span>
+          <ul class="d-grid gap-2">
+            <li><a href="#home">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#porfolio">Portfolio</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#blogs">Blog Details</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#stats">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 contact-wrap">
+          <div class="row">
+            <span>Contact</span>
+            <p><i class="bi bi-geo-alt-fill"></i> 101 West Town , PBO 12345, United States</p>
+            <p><i class="bi bi-telephone-inbound-fill"></i> +1 1234 56 789</p>
+            <p><i class="bi bi-envelope-fill"></i> contact@example.com</p>
+          </div>
+          <div class="row mt-3">
+            <span>Newsletter</span>
+            <p>
+              Don't miss to subscribe to our new feeds, kindly fill the form below.
+            </p>
+            <form>
+              <input type="text" placeholder="Email Address">
+              <button><i class="bi bi-telegram"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! FOOTER END -->
+
+
+
+
+  <!-- BootStrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+  <!-- Javascript -->
+  <script src="./js/cards.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/dark-mode.js"></script>
+</body>
+</html>
